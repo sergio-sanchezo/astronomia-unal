@@ -1,0 +1,26 @@
+.container {
+  width: 100%;
+  padding: 2rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media (max-width: 720px) {
+    padding: 1rem;
+  }
+
+  h2,
+  h3,
+  h4,
+  p,
+  ul {
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

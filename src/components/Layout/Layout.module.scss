@@ -1,0 +1,33 @@
+.layout {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  overflow: hidden;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.container {
+  min-height: 100vh;
+  min-width: 100vw;
+  padding: 0 2em;
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: 720px) {
+    padding: 0 1em;
+  }
+
+  h2,
+  h3,
+  h4,
+  p,
+  ul {
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
