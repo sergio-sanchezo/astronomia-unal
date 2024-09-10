@@ -72,7 +72,7 @@ const SolarSystemMap = () => {
 
       <div className={styles.container}>
         <div className={styles.sidebar}>
-          <h1 className={styles.title}>Sistema Solar a</h1>
+          <h1 className={styles.title}>Sistema Solar a escala - UNAL</h1>
 
           <div className={styles.inputGroup}>
             <div className={styles.inputGroupItem}>
