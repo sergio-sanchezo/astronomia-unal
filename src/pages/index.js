@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 import styles from '@styles/Home.module.scss';
 
-const DEFAULT_CENTER = [4.647159, -74.157746]; // Coordenadas de Bogotá
+const DEFAULT_CENTER = [4.6371, -74.083254]; // Coordenadas de Bogotá
 
 const SolarSystemMap = () => {
   const [earthDiameterCM, setEarthDiameterCM] = useState(22); // Diámetro de la Tierra en cm
